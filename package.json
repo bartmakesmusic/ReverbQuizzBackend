@@ -1,0 +1,22 @@
+{
+  "name": "reverbquizzbackend",
+  "version": "1.0.0",
+  "description": "Backend for Reverb Quiz to send info to Discord",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm i express && npm i cors && npm i discord.js && npm i dotenv",
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "BPM",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
