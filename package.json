@@ -8,6 +8,9 @@
     "devStart": "nodemon server.js",
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "author": "BPM",
   "license": "ISC",
   "dependencies": {
